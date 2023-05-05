@@ -1,0 +1,5 @@
+
+
+git add dist -f && push &&
+
+git subtree push --prefix dist github gh-pages;
