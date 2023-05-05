@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "clear; vite build && git add dist -f && git add . && git commit -m 'new build' && git push && git subtree push --prefix dist github gh-pages;",
+    "build": "clear; vite build && git add dist -f && git add . && git commit -m 'new build' && git push && git subtree push --prefix dist github gh-pages && sleep 5s",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
