@@ -9,7 +9,7 @@ export default function App() {
     
 
     return( <>
-        Céo Sammarco
+        <t1>Céo Sammarco</t1>
     </> );
 }
 
