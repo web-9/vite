@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
+import "./assets/styles/globals.css";
 
 
 export default function App() {
@@ -10,6 +11,10 @@ export default function App() {
     return( <>
         Céo Sammarco
     </> );
+}
+
+function name() {
+    
 }
 
 
